@@ -14,11 +14,13 @@ conda activate contime_kdd
 
 
 ## Training code
-``` python contime.py --dataset 'AWS' --batch 256 --task 'forecasting' --epoch 100 --model 'contime' --seq_len 104 --pred_len 24 --stride_len 1 --alpha 0.8  --lr 0.005 --beta 0.1 --seed 2021 --training 'True' --note '0126' --missing_rate 0 --data_name 'AMZN'
+```
+python contime.py --dataset 'AWS' --batch 256 --task 'forecasting' --epoch 100 --model 'contime' --seq_len 104 --pred_len 24 --stride_len 1 --alpha 0.8  --lr 0.005 --beta 0.1 --seed 2021 --training 'True' --note '0126' --missing_rate 0 --data_name 'AMZN'
 ```
 
 
 ## Testing code 
-``` python contime.py --dataset 'AWS' --batch 256 --task 'forecasting' --epoch 100 --model 'contime' --seq_len 104 --pred_len 24 --stride_len 1 --alpha 0.8  --lr 0.005 --beta 0.1 --seed 2021 --training '' --note '0126' --missing_rate 0 --data_name 'AMZN'
+```
+python contime.py --dataset 'AWS' --batch 256 --task 'forecasting' --epoch 100 --model 'contime' --seq_len 104 --pred_len 24 --stride_len 1 --alpha 0.8  --lr 0.005 --beta 0.1 --seed 2021 --training '' --note '0126' --missing_rate 0 --data_name 'AMZN'
 ```
 
